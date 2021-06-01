@@ -1,0 +1,33 @@
+{
+  "name": "@phakedev/vue-template",
+  "description": "A started template.",
+  "author": {
+    "email": "hi@phuongphung.com",
+    "name": "Phuong Phung",
+    "url": "https://phuongphung.com"
+  },
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite --port 3662 --open",
+    "build": "vite-ssg build"
+  },
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/server-renderer": "^3.0.11",
+    "@vueuse/head": "^0.5.1",
+    "typescript": "^4.1.3",
+    "vite": "^2.3.5",
+    "vite-plugin-pages": "^0.12.2",
+    "vite-plugin-windicss": "^0.16.7",
+    "vite-ssg": "^0.11.2",
+    "vue-router": "^4.0.8",
+    "vue-tsc": "^0.0.24",
+    "windicss": "^3.0.12"
+  }
+}
