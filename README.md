@@ -25,17 +25,20 @@ cd my-app
 With pnpm (**Highly recommend**)
 
 ```bash
+pnpm i
 pnpm dev
 ```
 
 With npm
 
 ```bash
+npm i
 npm run dev
 ```
 
 With yarn
 
 ```bash
+yarn
 yarn dev
 ```
