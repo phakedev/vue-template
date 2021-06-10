@@ -11,34 +11,41 @@ This template should help get you started developing with Vue 3 and Typescript i
   - [`vite-plugin-windicss`](https://github.com/windicss/vite-plugin-windicss) Windi CSS support
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) About File system based route generator
 
-## Let's start
+## Coding Style
+
+- Use [New `<script setup>`](https://github.com/vuejs/rfcs/pull/227)
+
+## Development Environment (**Recommendation**)
+
+- [VS Code Extensions](./.vscode/extensions.json)
+  - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) VS Code for Vite
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) Language Support plugin built specifically for Vue 3.
+
+## Let's start 🚀
+
+### GitHub Template
+
+[Create a repo from this template on GitHub](https://github.com/phakedev/vue-template/generate)
 
 ### Clone to local
 
 ```bash
 npx degit phakedev/vue-template my-app
 cd my-app
+
+# Install dependencies
+pnpm i # or: npm i
 ```
 
-### Run
-
-With pnpm (**Highly recommend**)
+### Dev
 
 ```bash
-pnpm i
-pnpm dev
+# Start dev server running at http://localhost:3662
+pnpm dev # or: npm run dev
 ```
 
-With npm
+### Build
 
 ```bash
-npm i
-npm run dev
-```
-
-With yarn
-
-```bash
-yarn
-yarn dev
+pnpm build # or: npm run build
 ```

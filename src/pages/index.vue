@@ -11,16 +11,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
   import Welcome from '~/components/welcome.vue'
   import ColorScheme from '~/components/common/color.scheme.vue'
-  import { defineComponent } from 'vue'
-
-  export default defineComponent({
-    components: { Welcome, ColorScheme },
-
-    setup() {
-      return {}
-    },
-  })
 </script>
