@@ -12,6 +12,7 @@
 </template>
 
 <script lang="ts" setup>
-  import Welcome from '~/components/welcome.vue'
-  import ColorScheme from '~/components/common/color.scheme.vue'
+  // vue sfc style
+  import Welcome from '@/components/welcome.vue'
+  import ColorScheme from '@/components/common/color.scheme.vue'
 </script>

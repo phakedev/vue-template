@@ -45,6 +45,7 @@
 </template>
 
 <script lang="ts">
+  // composition api style
   import { defineComponent } from 'vue'
   import { useDark, useToggle } from '@vueuse/core'
 
