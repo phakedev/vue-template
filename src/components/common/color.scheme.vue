@@ -10,7 +10,7 @@
       hover:transition hover:text-gray-600 hover:bg-gray-100
       dark:hover:text-gray-200 dark:hover:bg-gray-600
     "
-    @click="toggleColorScheme"
+    @click="toggleColorScheme()"
   >
     <svg
       v-if="isDark"
@@ -44,20 +44,8 @@
   </span>
 </template>
 
-<script lang="ts">
-  // composition api style
-  import { defineComponent } from 'vue'
+<script lang="ts" setup>
   import { useDark, useToggle } from '@vueuse/core'
-
-  export default defineComponent({
-    setup() {
-      const isDark = useDark()
-      const toggleColorScheme = useToggle(isDark)
-
-      return {
-        isDark,
-        toggleColorScheme,
-      }
-    },
-  })
+  const isDark = useDark()
+  const toggleColorScheme = useToggle(isDark)
 </script>
