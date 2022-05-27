@@ -1,15 +1,6 @@
 <template>
   <span
-    class="
-      p-2
-      rounded
-      text-gray-400
-      cursor-pointer
-      transition
-      dark:bg-gray-700
-      hover:transition hover:text-gray-600 hover:bg-gray-100
-      dark:hover:text-gray-200 dark:hover:bg-gray-600
-    "
+    class="inline-block p-2 rounded text-gray-400 cursor-pointer transition dark:bg-gray-700 hover:transition hover:text-gray-600 hover:bg-gray-100 dark:hover:text-gray-200 dark:hover:bg-gray-600"
     @click="toggleColorScheme()"
   >
     <svg
